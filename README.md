@@ -1,2 +1,1 @@
-# learn_haskell
-Some haskell examples
+# Some haskell examples
