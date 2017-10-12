@@ -20,4 +20,4 @@ main :: IO ()
 main = do
   info "Рабочая диреткория /var/db/pkg"
   fileNames <- filter isRegularFileOrDirectory <$> getDirectoryContents "/var/db/pkg"
-  info $ show $ fileNames 
+  info $ show $ fileNames

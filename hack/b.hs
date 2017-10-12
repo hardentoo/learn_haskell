@@ -5,7 +5,7 @@ import Control.Applicative
 import System.Console.ANSI
 import System.Environment
 import System.Directory
- 
+
 colorStrLn :: ColorIntensity -> Color -> ColorIntensity -> Color -> String -> IO ()
 colorStrLn fgi fg bgi bg str = do
   setSGR [SetColor Foreground fgi fg, SetColor Background bgi bg]
