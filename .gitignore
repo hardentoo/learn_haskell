@@ -1,0 +1,21 @@
+# Stack uses this directory as scratch space.
+
+backup
+
+.DS_Store
+.vim
+
+.stack
+.stack-*
+
+*.vim
+*.local
+*.local.*
+*.bat
+*.log
+*.iml
+
+*.o
+*.hi
+
+.idea/

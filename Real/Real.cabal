@@ -3,25 +3,25 @@
 
 name:                Real
 version:             0.1.0.0
--- synopsis:            
--- description:         
+-- synopsis:
+-- description:
 license:             GPL-3
 license-file:        LICENSE
 author:              hardentoo
 maintainer:          hardenedgentoo@gmail.com
--- copyright:           
+-- copyright:
 category:            Math
 build-type:          Simple
--- extra-source-files:  
+-- extra-source-files:
 cabal-version:       >=1.10
 
 executable Real
   main-is:             Main.hs
   other-modules:       Helpers
                        Kata
-  -- other-extensions:    
-  build-depends:       base >=4.8 && <4.9, text
+  -- other-extensions:
+  build-depends:       base, text
   hs-source-dirs:      src
-                       src/Utils    
+                       src/Utils
   default-language:    Haskell2010
   ghc-options:         -W
