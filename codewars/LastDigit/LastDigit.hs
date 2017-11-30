@@ -1,6 +1,5 @@
 module LastDigit where
 
 lastDigit :: Integer -> Integer -> Integer
-lastDigit a b = mod ((_lastDigit a) ^ (_lastDigit b)) 10
-
-_lastDigit a = mod a 10
+lastDigit _ 0 = 1
+lastDigit a b = mod ((mod a 10) ^ (4 + (mod b 4))) 10
